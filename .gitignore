@@ -1,0 +1,22 @@
+data/raw/*
+data/synthetic/*
+!data/raw/.gitkeep
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+
+# Generated datasets
+data/processed/*.csv
+
+# Temporary files
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+.pytest_cache/
+
+# Backup scripts
+src/data_backup.py
