@@ -83,6 +83,8 @@ The batches were divided into four groups based on their operating strategies an
 - **Data validation:** All 90 batches in the three normal operating groups were labeled as non-faulty, while batches 91–100 were labeled as faulty. A consistency check identified a maximum absolute discrepancy of 100 kg between the reported total yield and the sum of the two harvested components. The reported total-yield column was used for this analysis.
 - **Interpretation:** The APC + Raman group had the highest average reported yield and the lowest variability in this simulated dataset. These are descriptive associations, not evidence that the control strategy caused the improvement. The summary statistics were recalculated from all 100 batches in the IndPenSim Statistics file using reported total yield, sample standard deviation, and coefficient of variation.
 
+![PCA detection comparison](results/figures/pca_final_detection_comparison.png)
+
 ### Stage 3: Predictive modeling
 
 Explore early prediction of final fermentation outcomes from partial-batch data, transfer across control strategies, and sample-level prediction of penicillin concentration. The original implementation compares baseline, linear, and tree-based models using batch-aware evaluation.
@@ -142,8 +144,6 @@ fault-associated batch. The resulting onset references ranged from 20 to 80 hour
 ### Validation figures
 
 ![PCA false-positive rate comparison](results/figures/pca_final_fpr_boxplot.png)
-
-![PCA detection comparison](results/figures/pca_final_detection_comparison.png)
 
 ![Fault-by-fault detection frequency](results/figures/pca_final_fault_heatmap.png)
 
