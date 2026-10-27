@@ -1,0 +1,4 @@
+Model,MAE,R2
+Baseline,641923.79,-0.0226
+Ridge,670687.9,-0.2239
+Random Forest,644082.9,-0.0626

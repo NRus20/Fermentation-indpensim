@@ -1,0 +1,3 @@
+model,balanced_accuracy,fault_precision,fault_recall,average_precision
+Logistic Regression,0.40555555555555556,0.05405405405405406,0.2,0.0720743344490207
+Random Forest,0.4888888888888889,0.0,0.0,0.06468086951028819

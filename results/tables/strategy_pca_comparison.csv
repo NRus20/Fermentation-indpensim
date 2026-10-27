@@ -1,0 +1,7 @@
+model,strategy,batches,false_alarms,false_positive_rate
+global,apc_raman,11,3,0.2727272727272727
+global,operator,9,3,0.3333333333333333
+global,recipe,8,1,0.125
+strategy_specific,apc_raman,11,9,0.8181818181818182
+strategy_specific,operator,9,6,0.6666666666666666
+strategy_specific,recipe,8,2,0.25
